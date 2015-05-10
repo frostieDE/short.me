@@ -1,0 +1,23 @@
+{
+  "database": {
+    "driver": "mysql",
+    "connection": {
+      "username": "root",
+      "password": "gigatv",
+      "database": "shortme",
+      "path": "data.db"
+    }
+  },
+
+  "url": "http://localhost:3000",
+
+  "server": {
+    "host": "127.0.0.1",
+    "port": 3000
+    /*
+    "socket": {
+      "path": "/var/run/shareme.sock"
+    }
+    */
+  }
+}

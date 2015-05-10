@@ -1,0 +1,10 @@
+{
+  "pasteUrl": "Paste URL here...",
+  "shorten": "shorten",
+  "somethingWentWrong": "Something went wrong :(",
+  "pageNotFound": "The requested page was not found.",
+  "notFound": "Page not found",
+  "urlNotSpecified": "URL not specified",
+  "serverError": "Server Error",
+  "wrongUrlFormat": "Invalid URL format"
+}

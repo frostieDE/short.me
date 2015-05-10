@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='<%= config.url %>/stylesheets/style.css' />
+    <script type="text/javascript" src="<%= config.url %>/components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="<%= config.url %>/components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<%= config.url %>/javascripts/frontend.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="error"></div>
+
+        <form role="form" class="form-shorten">
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-control input-url" placeholder="<%= __('pasteUrl') %>" />
+
+                <span class="input-group-btn">
+                    <button class="btn btn-default button-shorten" type="button" disabled="disabled"><%= __('shorten') %> <i class="fa fa-chevron-right"></i></button>
+                </span>
+            </div>
+        </form>
+
+        <div class="urls">
+            <div class="url clonable">
+                <div class="clearfix">
+                    <div class="pull-left"><i class="fa fa-link"></i> <span class="target"></span></div>
+                    <div class="pull-right"><i class="fa fa-bar-chart"></i> <span class="count">0</span></div>
+                </div>
+                <h4><a class="short-link" target="_blank" href="#"></a></h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
